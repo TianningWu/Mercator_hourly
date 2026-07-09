@@ -20,7 +20,7 @@ conda activate copernicusmarine2
 run_date=$(date +%F)
 start_date=$(date -d '-7 day' +%F)
 end_date=$(date -d '+9 day' +%F)
-mercator_file="./archives/Mercator_${run_date}_zos_uovo.nc"
+mercator_file="/ourdisk/hpc/ai2es/twu27/srcdata/Mercator_hourly/archives/Mercator_${run_date}_zos_uovo.nc"
 
 # download hourly mercator from CMEMS
 copernicusmarine subset \
