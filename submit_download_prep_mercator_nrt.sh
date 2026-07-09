@@ -4,6 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64G
+#SBATCH --chdir=/ourdisk/hpc/ai2es/twu27/srcdata/Mercator_hourly
 #SBATCH --output=./archives/merc_%J.out
 #SBATCH --error=./archives/merc_%J.err
 #SBATCH --time=1:00:00
