@@ -2,3 +2,5 @@
 *.err
 *.out
 __pycache__/
+schooner_scripts/
+static/
