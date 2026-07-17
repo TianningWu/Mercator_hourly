@@ -13,8 +13,7 @@
 # Load conda environment
 module purge
 module load netCDF-C++4/4.3.1-iimpi-2025b
-source /home/twu27/.bashrc
-source /home/twu27/miniconda3/bin/activate
+source /home/twu27/miniconda3/etc/profile.d/conda.sh
 conda activate copernicusmarine2
 
 run_date=$(date +%F)
