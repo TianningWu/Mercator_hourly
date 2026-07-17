@@ -36,7 +36,7 @@ copernicusmarine subset \
 # Create Mercator_IC.nc and run the 6-hourly average in this job.
 
 hostname
-python /ourdisk/hpc/ai2es/twu27/srcdata/Mercator_hourly/mercator_6hourly_avg.py "${mercator_file}" Mercator_IC.nc
+python /ourdisk/hpc/ai2es/twu27/srcdata/Mercator_hourly/mercator_6hourly_avg.py "${mercator_file}" /ourdisk/hpc/ai2es/twu27/srcdata/Mercator_hourly/Mercator_IC.nc
 echo "6-hourly average completed."
 
 echo "Download and average done!"
